@@ -12,12 +12,15 @@ function App() {
 // const decreaseValue = () => {
 //   console.log('increase', Math.random())
 // }
+
 const [count, setCount] = useState(0)
 const increaseValue = () => {
   setCount(count +1)
 }
 const decreaseValue = () => {
-  setCount(count -1)
+  if (count != 0) {
+    setCount(count -1)
+  }
 }
 
 
