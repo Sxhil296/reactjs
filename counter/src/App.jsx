@@ -22,6 +22,9 @@ const decreaseValue = () => {
     setCount(count -1)
   }
 }
+const increaseFive = () => {
+  setCount(count + 5)
+}
 
 
   return (
@@ -30,6 +33,7 @@ const decreaseValue = () => {
       <h2>Counter Value : {count}</h2>
       <button onClick={increaseValue}>Increase</button>
       <button onClick={decreaseValue}>Decrease</button>
+      <button onClick={increaseFive}>Increase 5</button>
     </>
   );
 }
