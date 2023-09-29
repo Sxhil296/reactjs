@@ -1,4 +1,4 @@
-const Card = ({username}) => {
+const Card = ({username, btnText="visit me"}) => {
 //   console.log("props", props)
 //   console.log(props.username);
   return (
@@ -17,7 +17,9 @@ const Card = ({username}) => {
             debitis?
           </p>
           <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-            View Profile →
+            {/* {btnText || "visit me"} */}
+            {btnText}
+
           </button>
         </div>
       </div>

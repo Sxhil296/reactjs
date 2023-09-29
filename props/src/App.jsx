@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <h1 className="bg-green-800 rounded font-bold p-4 mb-4">Tailwind Test</h1>
-      <Card username="Batman" someObj={myObj} newArr={myArr} />
-      <Card username="Catwoman"/>
+      <Card username="Batman" someObj={myObj} newArr={myArr} btnText="Click Me"/>
+      <Card username="Catwoman" btnText="View More"/>
     </>
   );
 }
