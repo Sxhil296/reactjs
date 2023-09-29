@@ -1,8 +1,9 @@
-import BgChanger from "./components/BgChanger";
+import PasswordGenerator from "./components/PasswordGenerator";
+
 
 function App() {
   return <>
-  <BgChanger />
+ <PasswordGenerator />
   </>;
 }
 
