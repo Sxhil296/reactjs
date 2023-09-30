@@ -1,9 +1,12 @@
-import PasswordGenerator from "./components/PasswordGenerator";
+import Index from "./components/currencyConvertor/Index";
+
+
+
 
 
 function App() {
   return <>
- <PasswordGenerator />
+<Index />
   </>;
 }
 
